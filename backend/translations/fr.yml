@@ -1,0 +1,297 @@
+viewProject: vue du projet
+confirmProjectDeletion: Are you sure you want to delete this project? This action is irreversible.
+noAccount: Ne avez pas un compte?
+login: S'identifier
+registerHere: Inscrivez-vous ici
+email: Email
+repeatPassword: Répéter Le Mot De Passe
+alreadyHaveAccount: Vous avez déjà un compte?
+logInHere: Connectez-vous ici.
+register: Se enregistrer
+search: Recherche
+status: Statut
+published: Publié
+unpublished: Inédit
+sort: Sorte
+newest: Date
+oldest: Le plus ancien
+zA: Z-A
+createNewProject: Créez un nouveau projet
+noProjects: Vous ne avez pas encore créé de projets.
+createOneNow: Créer une entreprise
+startWithBlank: Commencez par page vierge
+colors: Couleurs
+categories: Catégories
+allCategories: Toutes les catégories
+noTemplateMatches: Désolé, pas de modèles correspondent à vos critères.
+name: Nom
+cancel: Annuler
+create: Créer
+themes: Thèmes
+templates: Modèles
+pages: Pages
+export: Exportation
+settings: Paramètres
+preview: Avant-première
+save: Enregistrer
+publish: Publier
+autoSaveDisabled: Auto sauver handicapés
+allChangesSaved: Toutes les modifications enregistrées.
+savingChanges: Enregistrement des modifications ...
+close: Près
+publishToRemoteFtp: Publier projet pour serveur FTP distant.
+host: Hôte
+username: Nom d'utilisateur
+password: Mot de passe
+folder: Dossier
+port: Port
+ssl: SSL
+publishing: Publishing ...
+createNew: Créer un nouveau
+all: Tous
+bootswatch: Bootswatch
+architectPublic: Architecte (publique)
+yours: Vôtre
+editCustomLess: Modifier Thèmes personnalisés Moins
+private: Privé
+public: Public
+customLess: Moins personnalisée
+apply: Appliquer
+unsavedChanges: Il ya des modifications non enregistrées.
+images: Images
+markup: Balisage
+styles: Styles
+copyToClipboard: Copier vers le Presse-papiers
+exportProject: Projet d'exportation
+page: Page
+add: Ajouter
+emptyProject: Projet vide
+edit: éditer
+pageName: Nom de la page
+pageTitle: Titre de la page (à paraître dans l'onglet du navigateur)
+pageDescription: Description de la page (balise meta)
+pageTags: Page Tags (nouveaux séparées par des virgules)
+deletePage: Supprimer la page
+copyPage: Copier la page
+savePage: Enregistrer la page
+noPagesFound: Se il vous plaît sélectionner ou créer une page à partir de la gauche.
+withSelected: Pour la sélection:
+use: Utilisation
+delete: Effacer
+saveAsTemplate: Enregistrer le projet en cours comme modèle
+createEditTemplate: Créer / modifier un modèle
+templateName: Nom du modèle
+templateCategory: Modèle Catégorie
+templatePrimaryColor: Modèle Couleur primaire
+replaceTemplateContents: Remplacer modèles contenu (HTML et CSS) avec le contenu des pages actuellement actifs?
+saveAndClose: Enregistrer et fermer
+elements: éléments
+searchElements: Recherche Elements ...
+layout: Disposition
+media: Médias
+typography: Typographie
+buttons: Boutons
+components: Composants
+forms: Formulaires
+container: Récipient
+row: Rangée
+well: Bien
+divider: Cloison
+divContainer: Div Container
+image: Image
+responsiveVideo: Vidéo Responsive
+imageGrid: Grille image
+mediaObject: Médias objet
+pageHeader: Tête de page
+label: étiquette
+link: Lien
+paragraph: Paragraphe
+markedText: Le texte marqué
+definitionList: Liste de définitions
+blockqoute: Blockqoute
+heading: Titre
+table: Table
+button: Bouton
+buttonGroup: Groupe Bouton
+buttonToolbar: Barre d'outils Bouton
+progressBar: Progress Bar
+listGroup: Liste Groupe
+panel: Panneau
+userProfile: Profil utilisateur
+skillsList: Liste des compétences
+servicesList: Liste des services
+pricingTable: Tableau des prix
+navbar: Navbar
+materialBox: Matériau boîte
+jumbotron: Jumbotron
+imageHeader: Header image
+inputField: Champ de saisie
+textArea: Zone de texte
+checkbox: Case
+inputGroup: Groupe d'entrée
+formGroup: Formulaire Groupe
+select: Sélectionner
+form: Forme
+unorderedList: Liste Undordered
+containerDesc: Principal conteneur de présentation. Tous les autres éléments doivent toujours être mis à l'intérieur celui-ci, sauf si vous voulez qu'ils soient pleine largeur (unité de héros, curseur, jumbotron etc).
+rowDesc: Contient et permet la gestion des colonnes.
+wellDesc: Un simple conteneur avec effet en médaillon.
+dividerDesc: Une ligne horizontale pour séparer le contenu.
+divContainerDesc: Conteneur générique pour d'autres éléments.
+imageDesc: Une image simple avec url modifiable.
+responsiveVideoDesc: VIDÉO Intégrer qui évoluera en fonction de la taille de l'écran.
+imageGridDesc: Plusieurs images avec un espacement.
+mediaObjectDesc: Médias objet
+pageHeaderDesc: Une coque simple pour un h1 à des sections de segments et sur l'espace de contenu sur une page. Il peut utiliser petit élément, ainsi que la plupart des autres composants.
+paragraphDesc: Un simple paragraphe de texte modifiable.
+markedTextDesc: Le texte présenté en raison de sa pertinence.
+definitionListDesc: Liste Association constitué de zéro ou plusieurs groupes nom-valeur.
+blockqouteDesc: Une section a cité une autre source.
+headingDesc: Un élément de position élémentaire.
+buttonDesc: Un simple bouton.
+buttonGroupDesc: Styled groupe de boutons.
+progressBarDesc: Fournir une rétroaction mise à jour sur les progrès d'un workflow ou une action avec barre de progression simple et flexible.
+listGroupDesc: Composant flexible pour afficher des listes d'éléments simples ou complexes.
+panelDesc: Une boîte de panneau simple à mettre d'autres composants.
+inputFieldDesc: Un champ de texte pour l'entrée utilisateur.
+textAreaDesc: Une zone de texte pour l'entrée de l'utilisateur avec plusieurs lignes.
+inputGroupDesc: Champ de texte avec un addon de chaque côté.
+formGroupDesc: Un conteneur pour étiquette et élément de formulaire.
+listItemDesc: Un élément de liste simple, qui va dans une liste.
+unorderedListDesc: Liste non ordonnée constitué d'éléments de liste.
+addRowBefore: Ajouter une ligne avant
+addRowAfter: Ajouter une ligne après
+addColumnBefore: Ajouter une colonne avant
+addColumnAfter: Ajouter une colonne après
+selectParent: Sélectionnez Parent
+wrapInTransparentDiv: Envelopper dans Transparent Div
+cut: Coupe
+copy: Copie
+paste: Pâte
+duplicate: Dupliquer
+moveUp: Monter
+moveDown: Descendre
+undo: Annuler
+redo: Refaire
+viewSource: Afficher la source
+linkFor: Lien Pour:
+selectAPage: SELCT Page
+websiteUrl: URL de site web
+download: Télécharger
+emailAddress: Adresse e-mail
+makeColsEqual: Faire colonnes largeur égale
+editColumns: Modifier les colonnes
+font: Fonte
+Size: Taille
+loading: Chargement ...
+html: HTML
+css: CSS
+js: JS
+libraries: Bibliothèques
+onlyShowAttached: Seulement montrer joint
+createNewLibrary: Créer nouvelle bibliothèque
+libraryName: Nom de la bibliothèque
+libraryPath: Chemin de la bibliothèque
+pathToLibrary: Chemin vers un fichier de bibliothèque, soit un cdn sur internet ou local (par rapport au dossier racine)
+toEditStylesPlease: Pour modifier les styles, se il vous plaît sélectionner un élément.
+attributes: Attributs
+float: Flotteur
+none: Aucun
+left: Gauche
+center: Centre
+right: Droit
+id: ça
+class: Classe
+background: Fond
+mediaManager: Media Manager
+color: Couleur
+Gradient: Pente
+textures: Textures
+imageProperties: Propriétés de l'image
+alignment: Alignement
+repeat: Répétition
+horizontal: Horizontal
+vertical: Vertical
+shadows: Ombres
+distance: Distance
+blur: Tache
+spread: Propagation
+box: Boîte
+text: Texte
+innter: Intérieur
+outter: Outter
+padding: Rembourrage
+margin: Marge
+textStyle: Style de texte
+border: Frontière
+ridge: Crête
+inset: Insérer
+outset: Début
+solid: Solide
+groove: Rainure
+double: Double
+dashed: Pointillée
+borderRoundness: Border Rondeur
+googleFonts: Polices google
+selectOnOf: Sélectionnez l'une des
+fontsLorem: Sorciers grincheux font mélange toxique pour le mal de la Reine et Jack.
+uploadAndManageImages: Ajouter et gérer vos images ou entrer une URL d'une image sur Internet.
+imageRestrictions: Vous pouvez télécharger des images 20mo en taille et en JPEG, PNG ou GIF.
+uploadImages: Télécharger les images
+myImages: Mes Images
+imageUrl: URL de l'image
+date: Date
+aZ: A-Z
+addFolder: Ajouter un dossier
+dropImageToUpload: Déposez image à télécharger
+or: Ou
+selectImageFrom: Sélectionner une image depuis votre ordinateur
+enterImageWebUrl: Entrez l'URL d'une image quelque part sur le web
+downloadLocally: Télécharger localement
+mustBeDirectLink: Il doit être un lien direct vers un fichier image.
+imageUrlExample: Exemple: http://mywebsite.com/image.jpg
+useImageExpl: Si vous avez plus d'une image sélectionnée le premier sera utilisé.
+useImage: Utiliser image
+notLoggedIn: Désolé, vous devez être connecté.
+noAccessTheme: Désolé, vous ne avez pas accès à télécharger ce thème.
+noThemeWithName: Impossible de trouver un thème avec ce nom.
+exportProblem: Désolé, un problème exportation de ce projet.
+pageExportProblem: Désolé, un problème exporter cette page.
+ftpNoHost: Hôte FTP est nécessaire.
+ftpNoUsername: Nom d'utilisateur FTP est nécessaire.
+ftpNoPassword: Mot de passe FTP est nécessaire.
+ftpNoFolder: Dossier FTP est nécessaire.
+projectExportSuccess: Exporté projet avec succès.
+fillInAllFields: Se il vous plaît remplir tous les champs obligatoires.
+libraryExists: Bibliothèque avec ce nom existe déjà.
+cantEditLibrary: Vous ne pouvez pas modifier cette bibliothèque.
+cantFindLibrary: Couldnt trouver une bibliothèque avec ce nom
+libraryDeleteFail: Il y avait un problème avec supprimer cette bibliothèque.
+projectNotPublished: Ce projet ne est pas publiée.
+genericProblem: Il y avait un problème, se il vous plaît réessayer plus tard.
+projectNameRequired: Un nom est requis pour un projet.
+projectWithNameExists: Projet avec ce nom existe déjà.
+problemUpdatingProject: Il y avait un problème de mise à jour de ce projet.
+projectPublishSuccess: Publié projet avec succès.
+projectUnpublishSuccess: Projet inédit avec succès.
+noProjectWithName: Impossible de trouver un projet avec ce nom.
+noPermissionsToDeleteProject: Vous ne avez pas les permissions pour supprimer ce projet.
+projectDeleteSuccess: Projet supprimé avec succès.
+noPermissionsToModifyTemplate: Vous ne avez pas des autorisations pour modifier ce modèle.
+enterNameForTemplate: Se il vous plaît entrer un nom pour le modèle.
+templateWithNameExists: Modèle avec ce nom existe déjà.
+noTemplateWithId: Pas de modèle avec cet identifiant existe.
+noPermissionsToDeleteTemplate: Vous ne avez pas les permissions pour supprimer ce modèle.
+templateDeleteSuccess: Supprimé modèle avec succès.
+enterNameForTheme: Se il vous plaît entrez le nom de votre thème.
+themeWithNameExists: Thème de ce nom existe déjà.
+errorInTheme: Il ya une erreur dans votre thème.
+wrongEmailOrPassword: Mauvaise adresse courriel ou mot de passe.
+userSuspended: Cet utilisateur est suspendu.
+userBanned: Cet utilisateur est banni.
+emailTaken: Cet e-mail est déjà pris.
+4CharsMin: 4 caractères minimum.
+50CharsMax: 50 caractères maximum.
+passwordsDontMatch: Les mots de passe ne correspondent pas.
+shouldntBeBlank: Cette valeur ne doit pas être vide.
+notValidEmail: Ce ne est pas une adresse email valide.

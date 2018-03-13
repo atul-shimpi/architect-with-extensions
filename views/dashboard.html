@@ -1,0 +1,108 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="NavbarController">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <img ng-show="state.current.name !== 'builder'" class="logo" ng-src="{{ baseUrl+'/assets/images/logo.png' }}" alt="logo">
+        </div>
+
+        <div ng-show="userCan('users.update') || isDemo">
+            <ul class="nav navbar-nav navbar-tabs dash-nav-tabs">
+                <li ng-class="{ active: state.current.name == 'dashboard' }"><a ui-sref="dashboard"><i class="icon icon-docs"></i> {{ 'projects' | translate }}</a></li>
+                <li ng-class="{ active: state.current.name == 'users' }"><a ui-sref="users"><i class="icon icon-group"></i> {{ 'users' | translate }}</a></li>
+            </ul>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <div class="nav navbar-nav navbar-right" id="account-actions">
+                <div class="username navbar-text">{{ user.email }}</div>
+                <div class="navbar-text" ng-click="logout()"> <i class="icon icon-logout"></i></div>
+            </div>
+
+            <ul class="nav-locales nav navbar-nav navbar-right" ng-show="state.current.name !== 'builder'">
+                <li ng-if="locales.available.length > 1" ng-repeat="locale in locales.available" ng-class="{ active: selectedLocale == locale.name }" title="{{ locale.name }}" ng-click="changeLocale(locale.name)">
+                    <img ng-src="{{ baseUrl+'/assets/images/flags/'+locale.flag+'.png'}}">
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="filter-bar">
+    <div class="container">
+
+        <div class="pull-left">
+            <div class="form-group">
+                <label for="name">{{ 'search' | translate }}</label>
+                <input name="name" ng-model="filters.query" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="status">{{ 'status' | translate }}</label>
+                <select name="status" ng-model="filters.status" class="form-control">
+                    <option value="">{{ 'all' | translate }}</option>
+                    <option value="1">{{ 'published' | translate }}</option>
+                    <option value="0">{{ 'unpublished' | translate }}</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="status">{{ 'sort' | translate }}</label>
+                <select name="status" ng-model="filters.sort" ng-change="filters.setSortProp()" class="form-control">
+                    <option value="newest">{{ 'newest' | translate }}</option>
+                    <option value="oldest">{{ 'oldest' | translate }}</option>
+                    <option value="a-z">{{ 'aZ' | translate }}</option>
+                    <option value="z-a">{{ 'zA' | translate }}</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="pull-right">
+            <a ui-sref="new" class="btn btn-primary">{{ 'createNewProject' | translate }}</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="dashboard-container">
+
+	<div class="container">
+
+		<div ng-if="isDemo" class="alert alert-info">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+			Note that the demo site will reset every 60 minutes. All projects, themes, templates and uploads will be deleted or reverted to their original state.
+		</div>
+
+		<ul id="projects-list" ng-if="projects.all.length" class="row">
+			<li ng-repeat="project in projects.all | filter:{name:filters.query} | filter:{published:filters.status} | orderBy:filters.order:filters.reverse" class="col-sm-4 col-md-3">
+				<figure ng-class="{active: project.id == selectedProject.id}">
+                    <div class="header">
+                        <a target="_blank" href="{{ getProjectUrl(project) }}">{{:: 'viewProject' | translate }}</a>
+                        <input ng-checked="project.published" ng-model="project.published" ng-change="togglePublished(project)" type="checkbox" icheck>
+                    </div>
+					<img bl-open-in-builder="{{ project.name }}" class="img-responsive" ng-src="assets/images/projects/project-{{project.id}}.png?{{project.updated_at}}">
+					<figcaption class="clearfix">
+						<div class="name">
+                            <h3>{{ project.name }}</h3>
+                            <div class="updated">{{:: 'updated' | translate }}: {{ formatTime(project.updated_at) }}</div>
+                        </div>
+                        <div class="actions">
+                            <i placement="top" bl-tooltip="openInBuilder" class="icon icon-pencil" bl-open-in-builder="{{ project.name }}"></i>
+                            <i placement="top" bl-tooltip="publish" class="icon icon-export" bl-open-publish-modal="{{ project.id }}"></i>
+                            <i placement="top" bl-tooltip="delete" class="icon icon-trash" ng-click="deleteProject(project)"></i>
+                        </div>
+					</figcaption>
+					<div class="spinner hidden">
+						<i class="icon icon-spin6 icon-spin"></i>
+					</div>
+				</figure>
+			</li>
+		</ul>
+
+		<div id="no-projects" ng-if="!projects.all.length" class="text-center">
+			<h3>{{ 'noProjects' | translate }}</h3>
+			<a ui-sref="new" class="btn btn-primary">{{ 'createOneNow' | translate }}</a>
+		</div>
+
+	</div>
+	
+</section>

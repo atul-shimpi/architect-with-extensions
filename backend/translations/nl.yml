@@ -1,0 +1,417 @@
+#new in 1.4 version
+newTheme: Maak een nieuw Thema
+exportTheme: Export Thema
+contentBoxes: Content Blokken
+autoSave: Automatisch opslaan
+dashboard: Dashboard
+xs: mobile
+xsSize: 480px - 768px
+sm: tablet
+smSize: 768px - 992px
+md: laptop
+mdSize: 992px - 1200px
+lg: desktop
+lgSize: 1200px and Larger
+codeEditor: Code Bewerken
+gradient: Gradient
+inspector: Inspector
+pageDeleteConfirmation: Weet je zeker dat je deze pagina wil verwijderen?
+useTemplateConfirmation: Een nieuwe template zal al je huidige werk verwijderen. Weet je het zeker?
+changeTemplate: Wijzig Template
+emptyProjectConfirmation: Deze actie verwijderd het hele project, Weet je het zeker?
+changeDevice: Wijzig apparaat
+noThemesFound: Geen themas gevonden.
+selectOneOf: Selecteer een van
+borderColor: Rand kleur
+textColor: Tekst kleur
+newPage: Nieuwe Paginga
+updated: Bijgewerkt
+
+#new in 1.3 version
+panels: Panelen
+userCreateSuccess: Gebruiker aangemaakt.
+uploadAndMangeImages: Upload en Beheer Afbeeldingen.
+
+#new in 1.2 version
+noPermissionsGeneric: "Sorry, Je hebt geen rechten hier voor."
+noPermToExport: Je hebt geen rechten om projecten te exporteren.
+noPermToPublish: Je hebt geen rechten om projecten te publiceren.
+noPermThemeCreate: Je hebt geen rechten om themas te maken.
+noPermThemeDelete: Je hebt geen rechten om themas te verwijderen.
+noPermTemplateDelete: Je hebt geen rechten om templates te verwijderen.
+noPermTemplateCreate: Je hebt geen rechten om nieuwe templates te maken.
+noPermTemplateUpdate: Je hebt geen rechten om templates aan te passen.
+noPermProjectUpdate: Je hebt geen rechten om projecten te bewerken.
+noPermProjectDelete: Je hebt geen rechten om projecten te verwijderen.
+noPermProjectCreate: Je hebt geen rechten om nieuwe projecten te starten.
+createNewUser: Gebruiker aanmaken
+areYouSureGeneric: Bevestig uw keuze
+modifyUserPermissions: Wijzig rechten van gebruiker
+permissions: Rechten
+lastLogin: Laatste Login
+createdAt: Aangemeld
+actions: Acties
+saveChanges: Opslaan
+lastSeen: Laatst Gezien
+defaultPermissions: Rechten
+settingsUpdated: Instellingen bijgewerkt.
+defaultPermExpl: Deze rechten worden toegekend aan nieuwe gebruikers. Hieronder kan je ze toekenen aan bestaande gebruikers.
+assignToExisting: Toekenen aan bestaande gebruikers
+assignPermToAllConfirm: Dit pas de bovenstaande rechten toe bij bestaande gebruikers. Wil je hiermee doorgaan?
+permissionsUpdated: Rechten bijgewerkt.
+confirmDeleteUser: Weet je zeker dat je deze gebruiker wil verwijderen?
+enableUserRegistration: Registratie toestaan ?
+disableRegistrationExpl: Schakel registratie hiermee aan of uit.
+registrationDisabled: Registratie is gedeactiveerd.
+
+#Login & Register
+noAccount: Ik heb geen account
+login: Inloggen
+registerHere: Registreer hier
+email: Email
+repeatPassword: Herhaal Wachtwoord
+alreadyHaveAccount: Ik heb al een account
+logInHere: Log hier in.
+register: Registreer
+
+#Dashboard
+viewProject: Preview Project
+search: Zoeken
+status: Status
+published: Gepubliceerd
+unpublished: Ongepubliceerd
+sort: Sorteren
+newest: Nieuwste
+oldest: Oudste
+zA: Z-A
+createNewProject: Nieuw project
+noProjects: Je hebt nog geen projecten.
+createOneNow: Maak er nu een aan
+
+#New project
+startWithBlank: Begin met een leeg project
+colors: Kleuren
+categories: Categorieen
+allCategories: Alle Categorieen
+noTemplateMatches: 'Sorry, er bestaan geen templates onder je criteria.'
+name: Naam
+cancel: Annuleer
+create: Aanmaken
+
+#Navigation bar
+themes: Themas
+templates: Templates
+pages: Paginas
+export: Exporteren
+settings: Instellingen
+preview: Preview
+save: Opslaan
+publish: Publiceer
+
+#Auto save messages
+autoSaveDisabled: Automatisch opslaan uitgeschakeld
+allChangesSaved: Wijzigingen opgeslagen.
+savingChanges: Wijzigingen opslaan...
+
+#Publish project modal
+close: Sluiten
+publishToRemoteFtp: Publiceer je project naar je website.
+publishToRemoteFtpdesc: Hiermee zet je je website online.
+host: Host
+username: Gebruikersnaam
+password: Wachtwoord
+folder: Folder
+port: Poort
+ssl: SSL
+publishing: Publiceren...
+
+#Themes panel
+createNew: Aanmaken
+all: Alles
+bootswatch: Bootswatch
+architectPublic: Architect (Openbaar)
+yours: Eigen
+editCustomLess: Bewerk Thema Custom Less
+export: Exporteren
+private: Prive
+public: Openbaar
+customLess: Custom Less
+save: Opslaan
+apply: Toepassen
+unsavedChanges: Er zijn openstaande wijzigigen.
+
+#Export panel
+images: Afbeeldingen
+markup: markup
+styles: Opmaak
+copyToClipboard: Kopieer naar Klembord
+exportProject: Exporteer Project
+
+#Pages panel
+pages: Paginas
+page: Pagina
+add: Toevoegen
+emptyProject: Leeg Project
+edit: Bewerken
+pageName: Pagina Naam
+pageTitle: Pagina Titel (browser tab titel)
+pageDescription: Pagina Omschrijving (meta tag)
+pageTags: Pagina Tags (comma gescheiden)
+deletePage: Verwijder Pagina
+copyPage: Kopieer Pagina
+savePage: Pagina Opslaan
+noPagesFound: Selecteer of maak een nieuwe Pagina.
+
+#Settings panel
+
+#Templates panel
+withSelected: Met Geselecteerd:
+use: Gebruiken
+delete: Verwijderen
+saveAsTemplate: Huidig project opslaan als template
+createEditTemplate: Creër/Bewerk een template
+templateName: Template Naam
+templateCategory: Template Categorie
+templatePrimaryColor: Primaire Template Kleur
+replaceTemplateContents: Vervang templace content (html en css) met de huidige actieve pagina content?
+saveAndClose: 'Opslaan & Sluiten'
+
+#Elements panel
+elements: Elementen
+searchElements: Zoek elementen...
+layout: Layout
+media: Media
+typography: Typografie
+buttons: Knoppen
+components: Componenten
+forms: Formulieren
+
+#Elements
+container: Container
+row: Rij
+well: Well
+divider: Divider
+divContainer: Div Container
+image: Afbeelding
+responsiveVideo: Responsive Video
+imageGrid: Afbeelding Grid
+mediaObject: Media Object
+pageHeader: Pagina Header
+label: Label
+link: Link
+paragraph: Paragraaf
+markedText: Gemarkeerde tekst
+definitionList: Definitie lijst
+blockqoute: Blockqoute
+heading: Rubriek
+table: Tabel
+button: Knop
+buttonGroup: Knoppen groep
+buttonToolbar: Knoppen balk
+progressBar: Voortgangs balk
+listGroup: Lijst groep
+panel: Paneel
+userProfile: Gebruikers profiel
+skillsList: Vaardigheden lijst
+servicesList: Diensten lijst
+pricingTable: Prijstabel
+navbar: Navigatie balk
+materialBox: Materiaal box
+jumbotron: Jumbotron
+imageHeader: Afbeelding header
+inputField: Invoer veld
+textArea: Tekst veld
+checkbox: Checkbox
+inputGroup: Invoer groep
+formGroup: Formulier groep
+select: Select
+form: Contact formulier
+unorderedList: Lijst
+
+#Elements descriptions
+containerDesc: 'Hoofd layout container. Alle andere elementen moeten altijd hier binnen gezet worden tenzij je ze ten alle tijden op volledige grote wil hebben (hero unit, slider, jumbotron etc).'
+rowDesc: Bevat en maakt het beheer mogelijk van kolommen.
+wellDesc: Een eenvoudige container met inzet effect.
+dividerDesc: Een horizontale lijn om content op te delen.
+divContainerDesc: Generieke container voor andere elementen.
+imageDesc: Een afbeelding met aanpasbare link.
+responsiveVideoDesc: Video embed die schaalt naar de grote van het scherm.
+imageGridDesc: Meerdere afbeeldingen met een tussenruimte.
+mediaObjectDesc: Media Object
+pageHeaderDesc: 'Een simpele shell voor een h1 om zo ruimte te creeren tussen segmenten van content op een pagina.'
+paragraphDesc: Een eenvoudige paragraaf van bewerkbare tekst.
+markedTextDesc: Opgemaakte tekst voor verduidelijking.
+definitionListDesc: Een definitielijst is een lijst, welke bestaat uit termen en bijbehorende beschrijvingen.
+blockqouteDesc: Een sectie voor een quote vanuit een andere bron.
+headingDesc: Een standaard heading element.
+buttonDesc: Een simpele knop.
+buttonGroupDesc: Een opgemaakte groep van knoppen.
+progressBarDesc: Weergeef hiermee up-to-date feedback over de voortgang van een workflow of actie met een eenvoudige, maar flexibele voortgangsbalk.
+listGroupDesc: Flexibel component om lijsten van eenvoudige of complexe items weer te geven.
+panelDesc: Een eenvoudig paneel waar je andere componenten in kan zetten.
+inputFieldDesc: Een tekstveld voor input van de gebruiker.
+textAreaDesc: Een tekst gebied voor invoer van de gebruiker met meerdere rijen.
+inputGroupDesc: Tekstveld met een addon aan beide zijden.
+formGroupDesc: Een container voor een label en formulier item.
+listItemDesc: 'Een lijst item, welke in een lijst gaat.'
+unorderedListDesc: Een lijst welke uit lijst items bestaat.
+
+#Context menu
+addRowBefore: Voeg een rij vooraf toe
+addRowAfter: Voeg een rij achteraf toe
+addColumnBefore: Voeg een kolom vooraf toe
+addColumnAfter: Voeg een achteraf achteraf toe
+selectParent: Select Parent
+wrapInTransparentDiv: Wrap in Transparent Div
+cut: Knip
+copy: Kopieer
+paste: Plak
+duplicate: Dupliceer
+moveUp: Verplaats naar boven
+moveDown: Verplaats naar onder
+undo: Ongedaan maken
+redo: Herhalen
+viewSource: Bron
+
+#link panel
+linkFor: Link voor:
+selectAPage: Selcteer een Pagina
+websiteUrl: Website URL
+download: Download
+emailAddress: E-mailadres
+
+#Column editor
+makeColsEqual: Maak kolommen gelijke breedte
+editColumns: Bewerk kolommen
+
+#Text editor
+font: Font
+Size: Grootte
+loading: Laden...
+
+#Code editors
+html: HTML
+css: CSS
+js: JS
+libraries: Libraries
+onlyShowAttached: Toon alleen bijgevoegd
+createNewLibrary: Maak een nieuwe library aan
+libraryName: Library Naam
+libraryPath: Library Pad
+pathToLibrary: 'Pad naar een library bestand, dit kan een cdn/url zijn of een lokaal bestand (relatief aan de root folder)'
+openInBuilder: Openen in Builder
+
+#Inspector
+toEditStylesPlease: Selecteer een element om de opmaak te bewerken.
+attributes: Attributen
+float: Float
+none: None
+left: Links
+center: Centrum
+right: Rechts
+id: Id
+class: Class
+background: Achtergrond
+mediaManager: Media Manager
+image: Image
+color: Color
+Gradient: Gradient
+textures: Textures
+imageProperties: Eigenschappen
+alignment: Uitlijning
+repeat: Herhaal
+horizontal: Horizontaal
+vertical: Verticaal
+shadows: Schaduw
+distance: Richting
+blur: Blur
+spread: Spreiding
+box: Elementblok
+text: Tekst
+innter: Binnen
+outter: Buiten
+padding: Padding
+margin: Margin
+textStyle: Tekst Opmaak
+border: Randen
+ridge: Ridge
+inset: Inset
+outset: Outset
+solid: Solide
+groove: Groove
+double: Dubbel
+dashed: Gestreept
+borderRoundness: Rand Ronding
+
+#Fonts modal
+googleFonts: google fonts
+selectOnOf: Selecteer
+fontsLorem: Logica brengt je van A naar B. Verbeelding brengt je werkelijk overal.
+
+#Media manager
+uploadAndManageImages: Upload en beheer je afbeeldingen.
+imageRestrictions: 'Je kan afbeeldingen uploaden tot 20mb in grootte in het formaat JPEG, PNG of GIF.'
+uploadImages: Upload Afbeeldingen
+myImages: Mijn Afbeeldingen
+imageUrl: Afbeelding URL
+date: Datum
+aZ: A-Z
+addFolder: Folder Toevoegen
+dropImageToUpload: Drop hier een Afbeelding om te Uploaden
+or: Of
+selectImageFrom: Selecteer een Afbeelding van je computer
+enterImageWebUrl: Voer een URL in van een Afbeelding op het web
+downloadLocally: Download Lokaal
+mustBeDirectLink: De URL moet een directe link naar de afbeelding zijn.
+imageUrlExample: Bijvoorbeeld: http://mywebsite.com/image.jpg
+useImageExpl: Indien er meer dan een geselecteerd is wordt de eerste gebruikt.
+useImage: Selecteer
+
+#Confirmations
+confirmProjectDeletion: Weet je zeker dat je dit project wil verwijderen, deze actie is onomkeerbaar.
+
+#Responses
+notLoggedIn: 'Sorry, hiervoor moet je ingelogd zijn.'
+noAccessTheme: "Sorry, het is niet toegestaan om dit thema te downloaden."
+noThemeWithName: Thema niet gevonden.
+exportProblem: 'Sorry, er was een probleem met het exporteren van dit project.'
+pageExportProblem: 'Sorry, er was een probleem met het exporteren van deze pagina.'
+ftpNoHost: FTP host ontbreekt.
+ftpNoUsername: FTP gebruikersnaam ontbreekt.
+ftpNoPassword: FTP wachtwoord ontbreekt.
+ftpNoFolder: FTP locatie onjuist.
+projectExportSuccess: Export succesvol.
+fillInAllFields: Vul de vereiste velden in.
+libraryExists: Er bestaat al een Library met de gekozen naam.
+cantEditLibrary: "De Library kan niet bewerkt worden."
+cantFindLibrary: "Geen resultaten"
+libraryDeleteFail: Er is een probleem op getreden bij het verwijderen van de Library.
+projectNotPublished: Dit project is niet gepubliceerd.
+genericProblem: 'Er is een probleem opgetreden, probeer het later opnieuw.'
+projectNameRequired: Geef een naam voor het project op.
+projectWithNameExists: Er bestaat al een project onder de opgegeven naam.
+problemUpdatingProject: Er is een probleem opgetreden.
+projectPublishSuccess: Project succesvol gepubliceerd.
+projectUnpublishSuccess: Project offline gezet.
+noProjectWithName: Project met de opgegeven naam is niet gevonden.
+noPermissionsToDeleteProject: "Je mag dit dit project niet verwijderen."
+projectDeleteSuccess: Project verwijderd.
+noPermissionsToModifyTemplate: "Je mag dit template niet aanpassen."
+enterNameForTemplate: Geef een naam voor de template op.
+templateWithNameExists: Er bestaat al een template onder de opgegeven naam.
+noTemplateWithId: Template met dit id bestaat niet.
+noPermissionsToDeleteTemplate: "Je mag geen templates te verwijderen."
+templateDeleteSuccess: Template verwijderd.
+enterNameForTheme: Geef een naam voor je thema op.
+themeWithNameExists: Er bestaat al een thema onder de opgegeven naam.
+errorInTheme: Er is een fout in je thema.
+wrongEmailOrPassword: Onjuist E-mailadres of wachtwoord.
+userSuspended: Je account is geblokkeerd.
+userBanned: Je account is verbannen.
+emailTaken: Dit E-mailadres is al in gebruik.
+4CharsMin: Minimaal 4 karakters.
+50CharsMax: Maximaal 50 karakters.
+passwordsDontMatch: De opgegeven wachtwoorden komen niet overeen.
+shouldntBeBlank: Deze waarde mag niet leeg zijn.
+notValidEmail: E-mailadres is onjuist.
+fieldCantBeEmpty: Dit veld mag niet leeg zijn

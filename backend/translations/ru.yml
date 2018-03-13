@@ -1,0 +1,297 @@
+viewProject: Посмотреть проект
+noAccount: Dont есть учётная запись?
+login: Войти
+registerHere: Регистрация здесь
+email: Email
+repeatPassword: Повторите Пароль
+alreadyHaveAccount: Уже есть аккаунт?
+logInHere: Войдите в систему здесь.
+register: Регистрация
+search: поиск
+status: статус
+published: опубликованный
+unpublished: неопубликованный
+sort: сортировать
+newest: новейший
+oldest: самый старший
+zA: Z-
+createNewProject: Создайте новый проект
+noProjects: Вы не создали никаких проектов еще.
+createOneNow: Создайте его сейчас
+startWithBlank: Начните с пустой страницы
+colors: цвета
+categories: категории
+allCategories: Все категории
+noTemplateMatches: К сожалению, не удалось найти шаблоны соответствуют вашим критериям.
+name: имя
+cancel: отменить
+create: создать
+themes: Темы
+templates: Шаблоны
+pages: страницы
+export: экспорт
+settings: настройки
+preview: предварительный просмотр
+save: Сохранить
+publish: публиковать
+autoSaveDisabled: Автоматическое сохранение инвалидов
+allChangesSaved: Все изменения сохраняются.
+savingChanges: Сохранение изменений ...
+close: близко
+publishToRemoteFtp: Проект на удаленный FTP-сервер Опубликовать.
+host: хозяин
+username: Имя пользователя
+password: пароль
+folder: папка
+port: порт
+ssl: SSL
+publishing: Издательство ...
+createNew: Создать новый
+all: все
+bootswatch: Bootswatch
+architectPublic: Архитектор (Public)
+yours: твое
+editCustomLess: Редактировать Темы заказ Меньше
+private: частное
+public: общественное
+customLess: Пользовательские Менее
+apply: применять
+unsavedChanges: Есть несохраненные изменения.
+images: изображений
+markup: наценка
+styles: Стили
+copyToClipboard: Копировать в буфер обмена
+exportProject: Экспорт проекта
+page: страница
+add: добавлять
+emptyProject: пустой проект
+edit: редактировать
+pageName: страницу
+pageTitle: Название страницы (чтобы появиться на вкладке браузера)
+pageDescription: Описание страницы (мета-тег)
+pageTags: Page Теги (ключевые слова новые с запятой)
+deletePage: Удалить страницу
+copyPage: Копировать страницу
+savePage: Сохранить страницу
+noPagesFound: Пожалуйста, выберите или создайте страницу с левой стороны.
+withSelected: С отмеченными:
+use: использование
+delete: удалять
+saveAsTemplate: Сохранить текущий проект в качестве шаблона
+createEditTemplate: Создание / редактирование шаблонов
+templateName: Название шаблона
+templateCategory: Шаблон Категория
+templatePrimaryColor: Шаблон Основной цвет
+replaceTemplateContents: Заменить шаблоны содержимое (HTML и CSS) с действующих в настоящее время содержание страниц?
+saveAndClose: Сохранить и Закрыть
+elements: Элементы
+searchElements: Поиск Элементы и ...
+layout: расположение
+media: средства массовой информации
+typography: оформление
+buttons: Кнопки
+components: компоненты
+forms: Виды
+container: контейнер
+row: строка
+well: хорошо
+divider: делитель
+divContainer: Div контейнер
+image: изображение
+responsiveVideo: Отзывчивый Видео
+imageGrid: Сетка изображения
+mediaObject: Медиа объекта
+pageHeader: Заголовок страницы
+label: этикетка
+link: ссылка
+paragraph: пункт
+markedText: выделенный текст
+definitionList: Список определений
+blockqoute: Blockqoute
+heading: заголовок
+table: стол
+button: кнопка
+buttonGroup: Кнопка Группа
+buttonToolbar: Кнопка на панели инструментов
+progressBar: Progress Bar
+listGroup: Список групп
+panel: панель
+userProfile: Профиль пользователя
+skillsList: Список Навыки
+servicesList: Услуги Список
+pricingTable: Стоимость услуг
+navbar: Navbar
+materialBox: Материал Box
+jumbotron: JumboTron
+imageHeader: изображение Заголовок
+inputField: поле ввода
+textArea: Текстовая область
+checkbox: флажок
+inputGroup: входной группы
+formGroup: Форма Группа
+select: выбрать
+form: форма
+unorderedList: Undordered Список
+containerDesc: Компоновка главного контейнера. Все остальные элементы должны всегда ставить внутри этого, если вы не хотите, чтобы они были всю ширину (герой блок, слайдер, JumboTron и т.д.).
+rowDesc: Содержит и позволяет управлять столбцов.
+wellDesc: Просто контейнер со вставкой эффекта.
+dividerDesc: Горизонтальная линия отделить содержание.
+divContainerDesc: Общий контейнер для других элементов.
+imageDesc: Простое изображение с изменяемой URL.
+responsiveVideoDesc: Видео вставлять, что будет масштабироваться в зависимости от размера экрана.
+imageGridDesc: Несколько изображений с интервалом.
+mediaObjectDesc: Медиа объекта
+pageHeaderDesc: Просто оболочка для h1 в космос выходов и сегментов участков контента на странице. Это может использовать небольшой элемент, а также большинство других компонентов.
+paragraphDesc: Просто абзац редактируемый текст.
+markedTextDesc: Текст, выделенный из-за своей актуальности.
+definitionListDesc: Ассоциация список, состоящий из нуля или более имен групп значений.
+blockqouteDesc: Раздел процитированный из другого источника.
+headingDesc: Основным элементом заголовок.
+buttonDesc: Простая кнопка.
+buttonGroupDesc: Разработанный группой кнопок.
+progressBarDesc: Обеспечить до современных обратной связи о ходе рабочего процесса или действия с простой, но гибкой прогресс-бар.
+listGroupDesc: Гибкая компонент для отображения списков простых или сложных элементов.
+panelDesc: Простая коробка панель поставить другие компоненты в.
+inputFieldDesc: Текстовое поле для ввода пользователя.
+textAreaDesc: Текстовая область для ввода пользователя с несколькими строками.
+inputGroupDesc: Текстовое поле с аддоном с обеих сторон.
+formGroupDesc: Контейнер для этикеток и формы предмета.
+listItemDesc: Просто элемент списка, который идет в списке.
+unorderedListDesc: Ненумерованный список, состоящий из элементов списка.
+addRowBefore: Добавить подряд, прежде чем
+addRowAfter: Добавить строку после
+addColumnBefore: Добавить столбец Перед
+addColumnAfter: Добавить столбец после
+selectParent: Выберите родитель
+wrapInTransparentDiv: Оберните в прозрачном Div
+cut: вырезать
+copy: копия
+paste: паста
+duplicate: дублировать
+moveUp: Вверх
+moveDown: Вниз
+undo: аннулировать
+redo: переделывать
+viewSource: View Source
+linkFor: Ссылка для:
+selectAPage: SELCT Страницу
+websiteUrl: URL веб-сайта
+download: скачать
+emailAddress: Адрес Электронной Почты
+makeColsEqual: Сделать колонны равна ширине
+editColumns: Редактировать Колонны
+font: шрифт
+Size: размер
+loading: Loading ...
+html: HTML
+css: CSS
+js: JS
+libraries: Библиотеки
+onlyShowAttached: Показать только прилагается
+createNewLibrary: Создать новую библиотеку
+libraryName: Имя библиотеки
+libraryPath: Путь к библиотеке
+pathToLibrary: Путь к файлу библиотеки, либо CDN в Интернете или локальной (по отношению к корневой папке)
+toEditStylesPlease: Чтобы изменить стили, выберите элемент.
+attributes: Атрибуты
+float: поплавок
+none: Ни один
+left: слева
+center: центр
+right: право
+id: Id
+class: класс
+background: фон
+mediaManager: Media Manager
+color: цвет
+Gradient: градиент
+textures: Текстуры
+imageProperties: Свойства изображения
+alignment: выравнивание
+repeat: повторение
+horizontal: горизонтальный
+vertical: вертикальный
+shadows: Тени
+distance: расстояние
+blur: пятно
+spread: распространение
+box: коробка
+text: текст
+innter: внутренний
+outter: Outter
+padding: набивка
+margin: маржа
+textStyle: Стиль текста
+border: граница
+ridge: хребет
+inset: вставка
+outset: боковик
+solid: Solide
+groove: паз
+double: двойной
+dashed: Пунктирная
+borderRoundness: Граница Roundness
+googleFonts: Google шрифты
+selectOnOf: Выберите один из
+fontsLorem: Grumpy мастера делают токсичных заваривать зло королевы и Джек.
+uploadAndManageImages: Загрузить и управлять изображениями или введите URL-адрес для изображения в Интернете.
+imageRestrictions: Вы можете загружать изображения до 20 Мб в размерах и JPEG, PNG или форматах GIF.
+uploadImages: Загрузка изображений
+myImages: Мои изображения
+imageUrl: URL изображения
+date: дата
+aZ: -Z
+addFolder: Добавить папку
+dropImageToUpload: Оставьте изображение для загрузки
+or: или
+selectImageFrom: Выберите изображение с вашего компьютера
+enterImageWebUrl: Введите URL изображения где-то в Интернете
+downloadLocally: Скачать Локально
+mustBeDirectLink: Она должна быть прямая ссылка на файл изображения.
+imageUrlExample: Пример: http://mywebsite.com/image.jpg
+useImageExpl: Если у вас есть более одного изображения выбран первый из них будет использоваться.
+useImage: Использовать изображение
+notLoggedIn: К сожалению, вы должны быть зарегистрированы.
+noAccessTheme: К сожалению, у вас нет доступа к скачать эту тему.
+noThemeWithName: Не удалось найти тему с таким названием.
+exportProblem: К сожалению, не было проблемой экспорта этого проекта.
+pageExportProblem: К сожалению, не было проблемой экспорта эту страницу.
+ftpNoHost: Хост FTP не требуется.
+ftpNoUsername: FTP имя пользователя не требуется.
+ftpNoPassword: FTP требуется пароль.
+ftpNoFolder: Папка FTP не требуется.
+projectExportSuccess: Успешно экспортируется проект.
+fillInAllFields: Пожалуйста, заполните все обязательные поля.
+libraryExists: Библиотека с таким именем уже существует.
+cantEditLibrary: Вы не можете редактировать эту библиотеку.
+cantFindLibrary: Не мог найти библиотеку с таким именем
+libraryDeleteFail: Был проблема с удалить эту библиотеку.
+projectNotPublished: Этот проект не опубликован.
+genericProblem: Был проблема, пожалуйста, повторите попытку позже.
+projectNameRequired: Название требуется для проекта.
+projectWithNameExists: Проект с таким именем уже существует.
+problemUpdatingProject: Был проблема обновления этого проекта.
+projectPublishSuccess: Успешно Опубликовано проект.
+projectUnpublishSuccess: Неопубликованный проект успешно.
+noProjectWithName: Не удалось найти проект с таким названием.
+noPermissionsToDeleteProject: Вы не имеют разрешения на удаление этого проекта.
+projectDeleteSuccess: Проект успешно удалены.
+noPermissionsToModifyTemplate: Вы не имеют разрешения на изменение этого шаблона.
+enterNameForTemplate: Пожалуйста, введите имя для шаблона.
+templateWithNameExists: Шаблон с таким именем уже существует.
+noTemplateWithId: Нет шаблон с этим ID не существует.
+noPermissionsToDeleteTemplate: Вы не имеют разрешения на удаление этого шаблона.
+templateDeleteSuccess: Успешно удален шаблон.
+enterNameForTheme: Пожалуйста, введите имя для вашей темы.
+themeWithNameExists: Тема с таким названием уже существует.
+errorInTheme: Существует ошибка в вашей теме.
+wrongEmailOrPassword: Неправильный адрес электронной почты или пароль.
+userSuspended: Пользователь приостановлено.
+userBanned: Пользователь запрещено.
+emailTaken: Данный адрес электронной почты уже занято.
+4CharsMin: 4 символов минимум.
+50CharsMax: 50 символов максимум.
+passwordsDontMatch: Пароли не совпадают.
+shouldntBeBlank: Это значение не должно быть пустым.
+notValidEmail: Это не правильный адрес электронной почты.
+confirmProjectDeletion: Are you sure you want to delete this project? This action is irreversible.

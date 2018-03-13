@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html id="architect">
+<head>
+	<title>Architect</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style type="text/css">[ng-cloak]#splash{display:block!important}[ng-cloak]{display:none}#splash{display:none;position:absolute;top:45%;left:50%;width:6em;height:6em;overflow:hidden;border-radius:100%;z-index:0}@-webkit-keyframes fade{from{opacity:1}to{opacity:.2}}@keyframes fade{from{opacity:1}to{opacity:.2}}@-webkit-keyframes rotate{from{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(360deg)}}@keyframes rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}#splash::after,#splash::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%}#splash::before{background:linear-gradient(to right,green,#ff0);-webkit-animation:rotate 2.5s linear infinite;animation:rotate 2.5s linear infinite}#splash::after{background:linear-gradient(to bottom,red,#00f);-webkit-animation:fade 2s infinite alternate,rotate 2.5s linear reverse infinite;animation:fade 2s infinite alternate,rotate 2.5s linear reverse infinite}#splash-spinner{position:absolute;width:100%;height:100%;z-index:1;border-radius:100%;box-sizing:border-box;border-left:.5em solid transparent;border-right:.5em solid transparent;border-bottom:.5em solid rgba(255,255,255,.3);border-top:.5em solid rgba(255,255,255,.3);-webkit-animation:rotate .8s linear infinite;animation:rotate .8s linear infinite}</style>
+	<link rel="stylesheet" href="{{ app.base_url ~ '/assets/css/builder.css?v14' }}">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,500,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ app.base_url ~ '/assets/css/font-awesome.min.css' }}">
+	<script async type="text/javascript" src="//feather.aviary.com/js/feather.js"></script>
+</head>
+{% verbatim %}
+<body ng-app="builder">
+<!--translate-cloak ng-cloak-->
+
+    <div id="splash" ng-cloak>
+        <div id="splash-spinner"></div>
+    </div>
+
+	<div ng-cloak style="height: 100%">
+
+        <div id="view" ui-view></div>
+
+        <div class="modal fade" id="publish-modal" bl-export-to-ftp>
+            <div class="modal-dialog">
+                <div class="modal-content" ng-class="{demo: isDemo || !userCan('publish')}">
+                    <div class="modal-header">
+                        <button type="button" class="close pull-right" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">{{ 'close' | translate }}</span></button>
+                        <h4 class="modal-title">{{ 'publishToRemoteFtp' | translate }}</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <div ng-if="isDemo" class="alert alert-info demo-alert">Publishing to remote ftp is disabled on demo site. Normally you would be able to enter your credentials and export the entire project with a single 'publish' click below.</div>
+                        <div ng-if="!userCan('publish') && ! isDemo" class="alert alert-info demo-alert">{{ 'noPermToPublish' | translate }}</div>
+
+                        <div class="form-group">
+                            <label for="host">{{ 'host' | translate }}</label>
+                            <input type="text" class="form-control" ng-model="publishCredentials.host">
+                        </div>
+                        <div class="form-group">
+                            <label for="username">{{ 'username' | translate }}</label>
+                            <input type="text" class="form-control" ng-model="publishCredentials.user">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">{{ 'password' | translate }}</label>
+                            <input type="password" class="form-control" ng-model="publishCredentials.password">
+                        </div>
+                        <div class="form-group">
+                            <label for="folder">{{ 'folder' | translate }}</label>
+                            <input type="text" class="form-control" ng-model="publishCredentials.root">
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-4 pull-left">
+                                <label for="port">{{ 'port' | translate }}</label>
+                                <input type="text" class="form-control" ng-model="publishCredentials.port">
+                            </div>
+                            <div class="form-group col-sm-2 pull-right">
+                                <div class="checkbox">
+                                    <label>
+                                        <input ng-model="publishCredentials.ssl" type="checkbox"> {{ 'ssl' | translate }}
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alert alert-danger error"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger close-modal">{{ 'close' | translate }}</button>
+                        <button class="btn btn-success publish" ng-disabled="isDemo">{{ 'publish' | translate }}</button>
+                    </div>
+                    <div class="loader"><div class="inner"><i class="fa fa-spinner fa-spin"></i><div class="text">{{ 'publishing' | translate }}</div></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <footer ng-show="state.current.name !== 'builder'"><div class="copyright">&copy; Architect</div></footer> -->
+
+        {% endverbatim %}
+
+        <script>
+            var baseUrl = '{{ app.base_url }}',
+                    isDemo  = '{{ app.is_demo }}',
+                    keys    = '{{ app.keys| raw }}',
+                    version = '{{ app.version }}',
+                    locales = '{{ app.jsLocales| raw }}',
+                    trans   = {{ app.translations| raw }},
+            selectedLocale = '{{ app.selectedLocale|raw }}',
+                    settings =  {{ app.settingsJSON | raw }};
+        </script>
+
+        <script src="{{ app.base_url ~ '/assets/js/builder.min.js?v14' }}"></script>
+        <script src="{{ app.base_url ~ '/assets/js/vendor/ace/ace.js' }}"></script>
+
+    </div>
+
+</body>
+</html>

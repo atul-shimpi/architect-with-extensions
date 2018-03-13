@@ -1,0 +1,329 @@
+#new in 1.2 version
+noPermissionsGeneric: 'Sie haben keine Berechtigung haben, das zu tun.'
+noPermToExport: 'Sie haben keine Berechtigung, um Projekte zu exportieren.'
+noPermToPublish: 'Sie haben keine Berechtigung, um Projekte zu veröffentlichen.'
+noPermThemeCreate: 'Sie haben keine Berechtigung, um Themen zu erstellen.'
+noPermThemeDelete: 'Sie haben keine Berechtigung, um Themen zu löschen.'
+noPermTemplateDelete: 'Sie haben keine Berechtigung, um Vorlagen zu löschen.'
+noPermTemplateCreate: 'Sie haben keine Berechtigung, neue Vorlagen erstellen.'
+noPermTemplateUpdate: 'Sie haben keine Berechtigung, um Vorlagen zu aktualisieren.'
+noPermProjectUpdate: 'Sie haben keine Berechtigung, um Projekte zu bearbeiten.'
+noPermProjectDelete: 'Sie haben keine Berechtigung, um Projekte zu löschen.'
+noPermProjectCreate: Sie haben keine Berechtigung zum Erstellen neuer Projekte.
+createNewUser: Neuen Benutzer
+areYouSureGeneric: 'Sind Sie sicher, dass Sie dies tun wollen?'
+modifyUserPermissions: Ändern von Benutzerberechtigungen
+Berechtigungen: Berechtigungen
+Lastlogin: Letztes Login
+createdAt: Erstellt am
+Maßnahmen: Die Aktionen
+savechanges: Änderungen speichern
+Lastseen: Zuletzt gesehen
+defaultPermissions: Standardberechtigungen
+settingsUpdated: Einstellungen erfolgreich aktualisiert.
+defaultPermExpl: Diese Berechtigungen werden auf neue Rechnung vergeben werden. Sie können auch ordnen sie bereits bestehende Konten unten.
+assignToExisting: Weisen zu bestehenden Konten
+assignPermToAllConfirm: 'Dadurch werden die oben genannten Berechtigungen für alle bestehenden Konten, die derzeit über keine Berechtigungen Satz zuweisen. Weiter?'
+permissionsUpdated: Berechtigungen erfolgreich aktualisiert.
+confirmDeleteUser: 'Sind Sie sicher, dass Sie diesen Benutzer wirklich löschen?'
+enableUserRegistration: Benutzerregistrierung aktivieren?
+disableRegistrationExpl: 'Wenn diese Option aktiviert ist Benutzer nicht in der Lage, Konten auf der Website registrieren.'
+registrationDisabled: Registrierung ist deaktiviert.
+
+viewProject: Projektansicht
+confirmProjectDeletion: Are you sure you want to delete this project? This action is irreversible.
+noAccount: Dont haben bereits einen Account?
+login: Einloggen
+registerHere: Registrieren Sie sich hier
+email: E-Mail
+repeatPassword: Passwort Wiederholen
+alreadyHaveAccount: Haben Sie ein Konto?
+logInHere: Loggen Sie sich hier.
+register: Registrieren
+search: Suche
+status: Status
+published: Veröffentlicht
+unpublished: Unveröffentlicht
+sort: Art
+newest: Neueste
+oldest: älteste
+zA: Z-A
+createNewProject: Erstellen eines neuen Projekts
+noProjects: Sie haben keine Projekte erstellt.
+createOneNow: Erstelle jetzt einen
+startWithBlank: Beginnen Sie mit leeren Seite
+colors: Farben
+categories: Kategorien
+allCategories: Alle Kategorien
+noTemplateMatches: Leider keine Vorlagen Ihren Kriterien entsprechen.
+name: Name
+cancel: Stornieren
+create: Schaffen
+themes: Themes
+templates: Vorlagen
+pages: Seiten
+export: Export
+settings: Einstellungen
+preview: Vorschau
+save: Speichern
+publish: Veröffentlichen
+autoSaveDisabled: Auto Spar Behinderte
+allChangesSaved: Alle Änderungen gespeichert.
+savingChanges: Speichern von Änderungen ...
+close: In der Nähe
+publishToRemoteFtp: Veröffentlichen eines Projekts über FTP-Server.
+host: Gastgeber
+username: Benutzername
+password: Passwort
+folder: Mappe
+port: Port
+ssl: SSL
+publishing: Publishing ...
+createNew: Neues
+all: Alle
+bootswatch: Bootswatch
+architectPublic: Architekt (Public)
+yours: Ihre
+editCustomLess: Bearbeiten Themen Benutzerdefinierte Weniger
+private: Privat
+public: Öffentlichkeit
+customLess: Benutzerdefinierte Weniger
+apply: Anwenden
+unsavedChanges: Es gibt ungesicherte Änderungen.
+images: Bilder
+markup: Markup
+styles: Styles
+copyToClipboard: In Zwischenablage kopieren
+exportProject: Projekt exportieren
+page: Seite
+add: Hinzufügen
+emptyProject: Leeres Projekt
+edit: Bearbeiten
+pageName: Seitenname
+pageTitle: Page Titel (auf der Registerkarte Browser angezeigt)
+pageDescription: Seite Beschreibung (Meta-Tags)
+pageTags: Stichworte Seite (getrennte neue mit Komma trennen)
+deletePage: Seite löschen
+copyPage: Seite kopieren
+savePage: Seite speichern
+noPagesFound: Bitte wählen Sie, oder erstellen Sie eine Seite aus der linken Seite.
+withSelected: Mit ausgewählten Profilen:
+use: Verwendung
+delete: Löschen
+saveAsTemplate: Aktuelles Projekt speichern als Vorlage
+createEditTemplate: Erstellen / bearbeiten Sie eine Vorlage
+templateName: Template Name
+templateCategory: Template-Kategorie
+templatePrimaryColor: Template Primary Color
+replaceTemplateContents: Ersetzen Vorlagen Inhalte (HTML und CSS) mit den derzeit aktiven Seiteninhalten?
+saveAndClose: Speichern & Schließen
+elements: Elements
+searchElements: Suche Elements ...
+layout: Layout
+media: Medien
+typography: Typografie
+buttons: Tasten
+components: Components
+forms: Forms
+container: Behälter
+row: Reihe
+well: Gut
+divider: Trennwand
+divContainer: Div Container
+image: Bild
+responsiveVideo: Responsive Video
+imageGrid: Bild Grid
+mediaObject: Medien-Objekt
+pageHeader: Page Header
+label: Beschriftung
+link: Link
+paragraph: Absatz
+markedText: Markierte Text
+definitionList: Definitionsliste
+blockqoute: Blockqoute
+heading: Überschrift
+table: Tabelle
+button: Schaltfläche
+buttonGroup: Button-Group
+buttonToolbar: Schaltfläche Symbolleiste
+progressBar: Progress Bar
+listGroup: Listengruppe
+panel: Verkleidung
+userProfile: Benutzerprofil
+skillsList: Fähigkeiten Liste
+servicesList: Dienstleistungen Liste
+pricingTable: Preistabelle
+navbar: Navbar
+materialBox: Material Box
+jumbotron: Jumbotron
+imageHeader: Image Header
+inputField: Eingabefeld
+textArea: Textbereich
+checkbox: Checkbox
+inputGroup: Eingangsgruppe
+formGroup: Form-Gruppe
+select: Wählen
+form: Form
+unorderedList: Undordered Liste
+containerDesc: Haupt-Layout-Container. Alle anderen Elemente sollten immer in diesem genommen werden, wenn Sie wollen, dass sie in voller Breite (Heldeneinheit, Schieberegler, jumbotron etc.) sein.
+rowDesc: Enthält und ermöglicht die Verwaltung von Spalten.
+wellDesc: Ein einfacher Behälter mit einge Wirkung.
+dividerDesc: Eine horizontale Linie zum Inhalt zu trennen.
+divContainerDesc: Generischen Container für andere Elemente.
+imageDesc: Ein einfaches Bild mit wechselbaren url.
+responsiveVideoDesc: Video einbetten, die je nach Bildschirmgröße skaliert.
+imageGridDesc: Mehrere Bilder mit Abstand.
+mediaObjectDesc: Medien-Objekt
+pageHeaderDesc: Eine einfache Shell für eine h1 um Platz heraus und Segmentabschnitte der Inhalt auf einer Seite. Es kann ein kleines Element, ebenso wie die meisten anderen Komponenten zu verwenden.
+paragraphDesc: Ein einfaches Absatz bearbeitbaren Text.
+markedTextDesc: Text hervorgehoben aufgrund seiner Relevanz.
+definitionListDesc: Verband Liste bestehend aus null oder mehr Name-Wert-Gruppen.
+blockqouteDesc: Ein Ausschnitt aus einer anderen Quelle zitiert.
+headingDesc: Eine Einzelposition Element.
+buttonDesc: Eine einfache Taste.
+buttonGroupDesc: Styled Gruppe von Schaltflächen.
+progressBarDesc: Up-to-date Feedback über den Fortschritt eines Workflows oder die Aktion mit leicht und flexibel Fortschrittsbalken.
+listGroupDesc: Flexible Komponente, um Listen von einfachen oder komplexen Elemente anzuzeigen.
+panelDesc: Ein einfaches Gerätekasten zu anderen Komponenten in.
+inputFieldDesc: Ein Textfeld für Benutzereingaben.
+textAreaDesc: Einen Textbereich für die Benutzereingabe mit mehreren Reihen.
+inputGroupDesc: Textfeld mit einem Addon auf beiden Seiten.
+formGroupDesc: Ein Container für Etiketten- und Formularelement.
+listItemDesc: Eine einfache Listenelement, das geht in eine Liste.
+unorderedListDesc: Ungeordnete Liste aus Listenelementen.
+addRowBefore: Zeile hinzufügen Vor
+addRowAfter: Zeile hinzufügen Nach
+addColumnBefore: Spalte links hinzufügen
+addColumnAfter: Spalte rechts hinzufügen
+selectParent: Wählen Eltern
+wrapInTransparentDiv: Wickeln Sie im Transparent-Div
+cut: Schnitt
+copy: Kopie
+paste: Paste
+duplicate: Duplikat
+moveUp: Nach oben
+moveDown: Nach unten
+undo: Rückgängig machen
+redo: Wiederholen
+viewSource: Quelltext anzeigen
+linkFor: Link nach:
+selectAPage: Selct eine Seite
+websiteUrl: Website URL
+download: Herunterladen
+emailAddress: E-Mail-Addresse
+makeColsEqual: Stellen Sie Spalten gleicher Breite
+editColumns: Spalten bearbeiten
+font: Schrift
+Size: Größe
+loading: Wird geladen ...
+html: HTML
+css: CSS
+js: JS
+libraries: Bibliotheken
+onlyShowAttached: Nur zeigen befestigt
+createNewLibrary: Neue Bibliothek
+libraryName: Library Name
+libraryPath: Bibliothekspfad
+pathToLibrary: Pfad zu einer Bibliotheksdatei wird entweder ein cdn im Internet oder lokale (relativ zum Stammordner)
+toEditStylesPlease: Um weitere Stile zu bearbeiten, wählen Sie bitte ein Element.
+attributes: Attribute
+float: Schwimmer
+none: Keiner
+left: Links
+center: Zentrum
+right: Recht
+id: Identifikation
+class: Klasse
+background: Hintergrund
+mediaManager: Media Manager
+color: Farbe
+Gradient: Gradient
+textures: Texturen
+imageProperties: Bildeigenschaften
+alignment: Ausrichtung
+repeat: Wiederholung
+horizontal: Horizontal
+vertical: Vertikal
+shadows: Schatten
+distance: Entfernung
+blur: Verwischen
+spread: Verbreitung
+box: Box
+text: Text
+innter: Innere
+outter: Outter
+padding: Polsterung
+margin: Marge
+textStyle: Textstil
+border: Grenze
+ridge: Rücken
+inset: Einsatz
+outset: Anfang
+solid: Solide
+groove: Rille
+double: Doppelt
+dashed: Eine gestrichelte
+borderRoundness: Border Rundheit
+googleFonts: Google-Schriften
+selectOnOf: Wählen Sie eine der
+fontsLorem: Grumpy Assistenten machen giftige Gebräu für die bösen Königin und Jack.
+uploadAndManageImages: Hochladen und Verwalten Ihrer Bilder oder geben Sie eine URL für ein Bild im Internet.
+imageRestrictions: Sie können Bilder auf 20mb groß und JPEG, PNG oder GIF-Format hochladen.
+uploadImages: Bilder hochladen
+myImages: Meine Bilder
+imageUrl: Bild URL
+date: Datum
+aZ: A-Z
+addFolder: Ordner hinzufügen
+dropImageToUpload: Tropfenbild hochladen
+or: Oder
+selectImageFrom: Wählen Sie Bild von Ihrem Computer
+enterImageWebUrl: Geben Sie die URL eines Bildes irgendwo im Web
+downloadLocally: Vor Ort herunterladen
+mustBeDirectLink: Es muss eine direkte Verbindung zu einer Bilddatei sein.
+imageUrlExample: Beispiel: http://mywebsite.com/image.jpg
+useImageExpl: Wenn Sie mehr als ein Bild ausgewählt die erste verwendet werden soll.
+useImage: Bild verwenden
+notLoggedIn: Sorry, müssen Sie angemeldet sein.
+noAccessTheme: Zugriff auf dieses Thema herunterladen Es tut uns leid, Sie nicht.
+noThemeWithName: Konnte nicht gefunden werden ein Thema mit diesem Namen.
+exportProblem: Sorry, es gab ein Problem Export dieses Projekt.
+pageExportProblem: Sorry, es gab ein Problem Exportieren Sie diese Seite.
+ftpNoHost: FTP-Host erforderlich.
+ftpNoUsername: FTP-Benutzernamen erforderlich.
+ftpNoPassword: FTP-Passwort erforderlich.
+ftpNoFolder: FTP-Ordner erforderlich.
+projectExportSuccess: Projekt erfolgreich exportiert.
+fillInAllFields: Bitte füllen Sie alle erforderlichen Felder aus.
+libraryExists: Bibliothek mit diesem Namen existiert bereits.
+cantEditLibrary: Sie kann diese Bibliothek zu bearbeiten.
+cantFindLibrary: Couldnt finden eine Bibliothek mit diesem Namen
+libraryDeleteFail: Es gab ein Problem mit dieser Bibliothek zu löschen.
+projectNotPublished: Dieses Projekt wird nicht veröffentlicht.
+genericProblem: Es gab ein Problem, versuchen Sie es später noch einmal.
+projectNameRequired: Ein Name für ein Projekt erforderlich ist.
+projectWithNameExists: Projekt mit diesem Namen existiert bereits.
+problemUpdatingProject: Es gab ein Problem Aktualisierung dieses Projekt.
+projectPublishSuccess: Veröffentlicht Projekt erfolgreich.
+projectUnpublishSuccess: Unveröffentlichte Projekt erfolgreich.
+noProjectWithName: Ein Projekt mit diesem Namen wurde nicht gefunden.
+noPermissionsToDeleteProject: Sie müssen nicht die Berechtigungen, dieses Projekt zu löschen.
+projectDeleteSuccess: Projekt erfolgreich gelöscht.
+noPermissionsToModifyTemplate: Sie müssen nicht berechtigt, diese Vorlage zu ändern.
+enterNameForTemplate: Bitte geben Sie einen Namen für die Vorlage.
+templateWithNameExists: Template mit diesem Namen existiert bereits.
+noTemplateWithId: Kein Template mit dieser ID existiert.
+noPermissionsToDeleteTemplate: Sie müssen nicht berechtigt, diese Vorlage zu löschen.
+templateDeleteSuccess: Gelöschte Vorlage erfolgreich.
+enterNameForTheme: Bitte geben Sie einen Namen für Ihr Thema.
+themeWithNameExists: Theme mit diesem Namen existiert bereits.
+errorInTheme: Es ist ein Fehler in Ihrem Thema.
+wrongEmailOrPassword: Falsche E-Mail-Adresse oder Passwort.
+userSuspended: Dieser Benutzer wird aufgehängt.
+userBanned: Dieser Benutzer wird verboten.
+emailTaken: Diese E-Mail ist bereits vergeben.
+4CharsMin: 4 Zeichen Minimum.
+50CharsMax: Maximal 50 Zeichen.
+passwordsDontMatch: Passwörter stimmen nicht überein.
+shouldntBeBlank: Dieser Wert sollte nicht leer sein.
+notValidEmail: Dies ist keine gültige E-Mail-Adresse ein.

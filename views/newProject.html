@@ -1,0 +1,54 @@
+<div id="new-project-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn btn-primary btn-block start-with-blank" ng-click="showNameModal()">{{ 'startWithBlank' | translate }}</button>
+
+				<div class="colors-container">
+					<h4>{{ 'colors' | translate }}</span></h4>
+					<ul class="list-unstyled" bl-new-project-color-selector>
+						<li title="{{ color.name.ucFirst() }}" ng-repeat="color in templates.colors" ng-style="{ background: color.value }" data-color="{{ color.name }}"></li>
+					</ul>
+				</div>
+
+				<div class="categories-container">
+					<h4>{{ 'categories' | translate }}</h4>
+					<ul class="list-unstyled">
+						<li ng-class="{active: ! filters.category}" ng-click="filters.category = ''" data-cat="">{{ 'allCategories' | translate }}</li>
+						<li ng-class="{active: category == filters.category}" ng-click="filters.category = category" data-cat="category" ng-repeat="category in templates.categories">{{ category }}</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-9" ng-cloak>
+				<figure ng-repeat="template in filteredTemplates = (templates.all | filter: { color: filters.color } | filter: { category: filters.category })" ng-click="showNameModal(template)" class="col-sm-4">
+					<img class="img-responsive" ng-src="{{ template.thumbnail }}">
+					<figcaption>{{ template.name }}</figcaption>
+				</figure>
+				<div class="no-results" ng-show="filteredTemplates && filteredTemplates.length == 0">{{ 'noTemplateMatches' | translate }}</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="project-name-modal">
+  	<div class="modal-dialog">
+    	<div class="modal-content">
+    		<div class="modal-header">
+	        	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+	        	<h4 class="modal-title"><i class="fa fa-pencil"></i> {{ 'createNewProject' | translate }}</h4>
+	      	</div>
+      		<div class="modal-body">
+      			<div class="clearfix">
+      				<div class="col-sm-2"><label for="project-name">{{ 'name' | translate }}</label></div>
+      				<div class="col-sm-10"><input type="text" class="form-control" name="project-name" ng-model="name"></div>
+      			</div>
+      			<p class="text-danger error"></p>
+      		</div>
+      		<div class="modal-footer">
+                <div class="loader" ng-if="loading"><i class="fa fa-spinner fa-spin"></i></div>
+      			<button type="button" class="btn btn-danger" data-dismiss="modal">{{ 'cancel' | translate }}</button>
+      			<button type="button" class="btn btn-success" ng-click="createNewProject()">{{ 'create' | translate }}</button>
+      		</div>
+    	</div>
+  	</div>
+</div>

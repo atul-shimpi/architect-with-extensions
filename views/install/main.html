@@ -1,0 +1,40 @@
+<html ng-app="installer">
+	<head>
+		<title>Architect</title>
+		<link rel="stylesheet" href="assets/css/builder.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:100,400,500,600,700' rel='stylesheet' type='text/css'>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+	<body id="install" ng-controller="InstallController">
+
+		<div class="container cont-pad-bottom" id="content">
+			
+			<div class="row logo"><img class="img-responsive" src="assets/images/logo.png" alt="logo"></div>
+			<hr>
+
+			<section class="row">
+				<ul class="wizard list-unstyled clearfix">
+					<li ng-class="{ active: currentStep === 'compatability'}" class="compat"><span class="step">1</span> <span class="title">Compatability</span></li>
+					<li ng-class="{ active: currentStep === 'database'}" class="db"><span class="step">2</span> <span class="title">Database</span></li>
+					<li ng-class="{ active: currentStep === 'admin'}" class="config"><span class="step">3</span> <span class="title">Admin Account</span></li>
+				</ul>
+				<div class="clearfix"></div>
+			</section>
+
+			<section ui-view></section>
+
+		</div>
+
+		<div id="loader"><i class="fa fa-spinner fa-spin"></i></div>
+		
+		<script src="assets/js/vendor/jquery.js"></script>
+		<script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+		<script src="assets/js/vendor/angular.min.js"></script>
+		<script src="assets/js/vendor/angular-ui-router.min.js"></script>
+		<script src="assets/js/builder/installer.js"></script>
+	</body>
+</html>
+	
+

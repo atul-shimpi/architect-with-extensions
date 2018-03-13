@@ -1,0 +1,25 @@
+<section id="login-page" ng-controller="UsersController">
+	<div ng-class="{ loading: loading }" class="container login-container">
+		<form ng-submit="login()" bl-form-validator>
+			
+			<img src="assets/images/logo.png" alt="logo" class="logo">
+
+			<div class="alert alert-danger alert-dismissible fade in" role="alert">
+		    	<div class="message"></div>
+		    </div>
+
+			<div class="form-group">
+				<input class="form-control" name="email" placeholder="{{ 'email' | translate }}" type="text" ng-model="loginInfo.email">
+			</div>
+			<div class="form-group">
+				<input class="form-control" name="password" type="password" placeholder="{{ 'password' | translate }}" name="password" ng-model="loginInfo.password">
+			</div>
+
+			<p ng-if="registrationEnabled">{{ 'noAccount' | translate }} <a ui-sref="register">{{ 'registerHere' | translate }}</a></p>
+
+			<div class="login-btn"><button type="submit" class="btn btn-success">{{ 'login' | translate }}</button></div>
+								
+		</form>
+	</div>
+    <div class="loader" ng-class="{ hidden: !loading }"><i class="icon icon-spin6 icon-spin"></i></div>
+</section>
