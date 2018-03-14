@@ -1,0 +1,27 @@
+<style>
+    .map {
+        width: 100%;
+        height: 100%;
+        background: lightseagreen;
+    }
+</style>
+
+<div id="map" class="map"></div>
+
+<script>
+
+	({ 
+		name: 'map',
+	 	nodes: '*',
+	 	frameworks: ['bootstrap'],
+	 	class: 'map',
+	 	types: ['flow'],
+	 	validChildren: ['flow'],
+	 	category: 'components',
+	 	previewScale: '0.2',
+	 	icon: 'header',
+	 	hiddenClasses: ['jumbotron'],
+	 	description: 'Google map',
+	});
+
+</script>
