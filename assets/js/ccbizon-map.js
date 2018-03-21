@@ -46,7 +46,8 @@ $(function () {
                     var marker = new google.maps.Marker({
                         map: map,
                         position: results[0].geometry.location,
-                        label: data.name
+                        label: data.name,
+                        animation: google.maps.Animation.BOUNCE
                     });
                 } else {
                     alert('Geocode was not successful for the following reason: ' + status);
